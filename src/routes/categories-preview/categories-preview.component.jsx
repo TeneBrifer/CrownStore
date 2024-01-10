@@ -10,7 +10,7 @@ const CategoriesPreview = () => {
                 const products = categoriesMap[title];
                 return <CategoryPreview key={title} title={title} products={products} />
             })}
-        </Fragment>
+        </Fragment> 
     )
 }
 
